@@ -50,3 +50,11 @@ run/options.txt
 build/tmp/compileJava/previous-compilation-data.bin
 run/config/fabric/indigo-renderer.properties
 run/options.txt
+.gradle/8.5/checksums/checksums.lock
+.gradle/8.5/dependencies-accessors/dependencies-accessors.lock
+.gradle/8.5/executionHistory/executionHistory.bin
+.gradle/8.5/executionHistory/executionHistory.lock
+.gradle/8.5/fileHashes/fileHashes.bin
+.gradle/8.5/fileHashes/fileHashes.lock
+.gradle/8.5/fileHashes/resourceHashesCache.bin
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
