@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sheepymod:block/thatch_block"
+  }
+}
