@@ -15,10 +15,12 @@ import sheepy.sheepymod.block.ModBlocks;
 public class ModItems {
     public static final Item SharpRock = registerItem("sharprock", new Item(new FabricItemSettings()));
     public static final Item Twig = registerItem("twig", new Item(new FabricItemSettings()));
+    public static final Item GrassTuft = registerItem("grasstuft", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(SharpRock);
         entries.add(Twig);
+        entries.add(GrassTuft);
     }
     private static void addItemsToBuildingBlocksTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.THATCH_BLOCK);

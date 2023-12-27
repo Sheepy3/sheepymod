@@ -1,6 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube_bottom_top",
   "textures": {
-    "all": "sheepymod:block/thatch_block"
+    "top": "sheepymod:block/thatch_block_top",
+    "bottom": "sheepymod:block/thatch_block_top",
+    "side": "sheepymod:block/thatch_block"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "sheepymod:twig"
+    },
+    {
+      "item": "sheepymod:twig"
+    },
+    {
+      "item": "sheepymod:grasstuft"
+    },
+    {
+      "item": "sheepymod:grasstuft"
+    }
+  ],
+  "result": {
+    "item": "sheepymod:thatch_block",
+    "count": 1
+  }
+}
