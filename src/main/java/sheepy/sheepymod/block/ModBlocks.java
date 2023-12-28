@@ -10,10 +10,15 @@ import net.minecraft.util.Identifier;
 import sheepy.sheepymod.SheepyMod;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import sheepy.sheepymod.block.custom.SoundBlock;
+import sheepy.sheepymod.block.custom.ThatchBlock;
+
 public class ModBlocks {
     public static final Block THATCH_BLOCK = registerBlock("thatch_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+            new ThatchBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

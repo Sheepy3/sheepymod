@@ -1,7 +1,28 @@
 {
   "variants": {
-    "": {
-      "model": "sheepymod:block/thatch_block"
-    }
+    "age=0,axis=x": { "model": "sheepymod:block/thatch_block_horizontal", "x": 90, "y": 90},
+    "age=0,axis=y": { "model": "sheepymod:block/thatch_block" },
+    "age=0,axis=z": { "model": "sheepymod:block/thatch_block_horizontal","x": 90},
+    "age=1,axis=x": { "model": "sheepymod:block/thatch_block_horizontal","x": 90, "y": 90 },
+    "age=1,axis=y": { "model": "sheepymod:block/thatch_block" },
+    "age=1,axis=z": { "model": "sheepymod:block/thatch_block_horizontal","x": 90 },
+    "age=2,axis=x": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90, "y": 90 },
+    "age=2,axis=y": { "model": "sheepymod:block/thatch_block_old" },
+    "age=2,axis=z": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90 },
+    "age=3,axis=x": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90, "y": 90 },
+    "age=3,axis=y": { "model": "sheepymod:block/thatch_block_old" },
+    "age=3,axis=z": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90 },
+    "age=4,axis=x": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90, "y": 90 },
+    "age=4,axis=y": { "model": "sheepymod:block/thatch_block_old" },
+    "age=4,axis=z": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90 },
+    "age=5,axis=x": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90, "y": 90 },
+    "age=5,axis=y": { "model": "sheepymod:block/thatch_block_old" },
+    "age=5,axis=z": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90 },
+    "age=6,axis=x": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90, "y": 90 },
+    "age=6,axis=y": { "model": "sheepymod:block/thatch_block_old" },
+    "age=6,axis=z": { "model": "sheepymod:block/thatch_block_horizontal_old","x": 90 },
+    "age=7,axis=x": { "model": "sheepymod:block/thatch_block_horizontal_rotten","x": 90, "y": 90 },
+    "age=7,axis=y": { "model": "sheepymod:block/thatch_block_rotten" },
+    "age=7,axis=z": { "model": "sheepymod:block/thatch_block_horizontal_rotten","x": 90 }
   }
 }

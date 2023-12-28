@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sheepymod:block/sound_block"
+    }
+  }
+}

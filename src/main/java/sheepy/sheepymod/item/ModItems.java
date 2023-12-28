@@ -24,6 +24,7 @@ public class ModItems {
     }
     private static void addItemsToBuildingBlocksTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.THATCH_BLOCK);
+        entries.add(ModBlocks.SOUND_BLOCK);
     }
     
 

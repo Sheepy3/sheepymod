@@ -1,8 +1,28 @@
-{
-  "parent": "block/cube_bottom_top",
+{   "parent": "block/cube_column",
   "textures": {
-    "top": "sheepymod:block/thatch_block_top",
-    "bottom": "sheepymod:block/thatch_block_top",
-    "side": "sheepymod:block/thatch_block"
-  }
+    "particle": "sheepymod:block/thatch_block",
+    "end": "sheepymod:block/thatch_block_top",
+    "side": "sheepymod:block/thatch_block_tocolor",
+    "overlay": "sheepymod:block/thatch_block_top_overlay"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#end", "cullface": "down" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#end",    "cullface": "up"  },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#side",   "cullface": "north","tintindex": 0 },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side",   "cullface": "south","tintindex": 0 },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side",   "cullface": "west","tintindex": 0 },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side",   "cullface": "east","tintindex": 0 }
+      }
+    },
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "up" },
+        "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "down" }
+      }
+    }
+  ]
 }

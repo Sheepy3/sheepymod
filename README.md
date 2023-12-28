@@ -25,8 +25,8 @@ I'm not a huge fan of how quickly you can skip over minecraft's early-game. you 
 * Firestarting (bow drill)
 * natural overgrowth?
 
-### License
-GPL 3 baybeee
-
 ## Contributing
 DM me on the HackClub slack!
+
+### License
+GPL 3 baybeee
