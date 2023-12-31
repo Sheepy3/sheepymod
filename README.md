@@ -19,7 +19,7 @@ I'm not a huge fan of how quickly you can skip over minecraft's early-game. you 
     * revamped anvil (crafting metal tools)
 * bronze (stone tools w/ higher durability)
   * tin!
-  * insert cool ideas for tin here
+  * sieving river water for tin & gold
 * Wild animal AI improvements (they run away)
 * Early game weapon options (Sling, Spear)
 * Firestarting (bow drill)
